@@ -7,11 +7,19 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 .card {
   width: 18rem;
+  margin-right: 1rem; /* Add some spacing between the cards */
+  border-radius: 10px;
 }
+
 .card-body {
   background-color: white;
   height: 25rem;
   width: auto;
+}
+
+.card-container {
+  display: flex;
 }
